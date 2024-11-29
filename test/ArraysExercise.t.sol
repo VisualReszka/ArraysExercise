@@ -95,7 +95,7 @@ contract ArraysExerciseTest is Test {
         arraysExercise.saveTimestamp(afterY2K);
 
         // Retrieve the filtered timestamps
-        (uint256[] memory timestamps, ) = arraysExercise.afterY2K();
+        (uint256[] memory timestamps,) = arraysExercise.afterY2K();
 
         // Assert only one timestamp is included after Y2K
         assertEq(timestamps.length, 1, "Should have one timestamp after Y2K");
