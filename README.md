@@ -1,66 +1,22 @@
-## Foundry
+# ArraysExercise
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Overview
+This project is part of the **Arrays Exercise** from the [Base Learn documentation](https://docs.base.org/base-learn/docs/arrays/arrays-exercise/). It demonstrates Solidity concepts using **Foundry**.
 
-Foundry consists of:
+## Features
+- **getNumbers**: Returns the numbers array.
+- **resetNumbers**: Resets the numbers array to its initial state.
+- **appendToNumbers**: Adds new numbers to the array.
+- **saveTimestamp**: Records timestamps and caller addresses.
+- **afterY2K**: Filters and returns data after Y2K.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Setup
+- **Framework**: Foundry  
+- **Contract**: `ArraysExercise.sol`  
+- **Network**: Base Mainnet/Testnet  
 
-## Documentation
+## Notes
+This project is for educational purposes as part of the Base Learn course.
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## Progress
+Badges Earned: 4 out of 13
